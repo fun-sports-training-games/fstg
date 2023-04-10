@@ -235,6 +235,7 @@
             },
             "exercise": {
                 "name": "Nome dell'esercizio",
+                "description": "Descrizione dell'esercizio",
                 "imgUrl": "Immagine/URL GIF",
                 "defaultAmountType": "Tipo di importo predefinito",
                 "amountType": "Tipo di importo",

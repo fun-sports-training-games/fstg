@@ -180,6 +180,16 @@ const CreateEditExerciseForm = ({
                             onChange={handleChange}
                             name={'name'}
                         />
+                        <TextField
+                            shrinkLabel={!!exercise.description}
+                            id={`exercise.description`}
+                            label={t(`${PREFIX}.description`)}
+                            type={'text'}
+                            value={exercise.description ? exercise.description : ''}
+                            fullWidth
+                            onChange={handleChange}
+                            name={'description'}
+                        />
                         <EditImage exercise={exercise} setExercise={setExercise} setChosenFile={setChosenFile} />
                     </>
                 ) : null}

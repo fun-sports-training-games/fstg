@@ -16,6 +16,7 @@ export interface Exercise
         HasBeenCreated,
         ResultValue,
         ResultType {
+    description?: string;
     imageOrGifUrl?: string;
     recordResults?: boolean;
     useDefaultResult?: boolean;

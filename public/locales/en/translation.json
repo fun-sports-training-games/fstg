@@ -236,6 +236,7 @@
             },
             "exercise": {
                 "name": "Exercise Name",
+                "description": "Exercise Description",
                 "imgUrl": "Image/GIF URL",
                 "defaultAmountType": "Default Amount Type",
                 "amountType": "Amount Type",

@@ -236,6 +236,7 @@
             },
             "exercise": {
                 "name": "Nom de l'exercice",
+                "description": "Description de l'exercice",
                 "imgUrl": "URL de l'image/GIF",
                 "defaultAmountType": "Type de montant par défaut",
                 "amountType": "Type de montant",
